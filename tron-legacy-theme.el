@@ -189,9 +189,12 @@
    `(org-scheduled                            ((,class (:foreground ,type))))
    `(org-scheduled-today                      ((,class (:foreground ,func :weight normal :height 1.2))))
    `(org-ellipsis                             ((,class (:foreground ,builtin))))
-   `(org-verbatim                             ((,class (:foreground ,fg4))))
+   `(org-verbatim                             ((,class (:foreground ,tron-bluegreen :bold t))))
    `(org-document-info-keyword                ((,class (:foreground ,tron-green))))
    `(org-sexp-date                            ((,class (:foreground ,fg4))))
+
+   ;;;;; Markdown
+   `(markdown-header-face                     ((t (:foreground ,tron-bluegreen :bold t))))
 
    ;;;;; LaTeX
    `(font-latex-bold-face                     ((,class (:foreground ,type))))
@@ -254,6 +257,9 @@
 
    ;;;;; Slime
    `(slime-repl-inputed-output-face           ((,class (:foreground ,type))))
+
+   ;;;;; Sly
+   `(sly-mrepl-output-face                    ((t (:foreground ,tron-lightblue))))
 
    ;;;;; Undo tree
    `(undo-tree-visualizer-current-face        ((,class :foreground ,builtin)))
@@ -570,6 +576,10 @@
 
    ;;;;; lsp-ui
    `(lsp-ui-doc-background                    ((t (:background ,bg0))))
+
+   ;;;;; Elfeed
+   `(elfeed-search-tag-face                   ((t (:foreground ,fg0))))
+   `(elfeed-search-feed-face                  ((t (:foreground ,fg3))))
 
    ;;;;; flycheck
    `(flycheck-info                            ((t (:underline (:style wave :color ,tron-green)))))
