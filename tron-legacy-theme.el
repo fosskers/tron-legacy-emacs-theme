@@ -315,7 +315,7 @@
    `(magit-filename                           ((t (:foreground ,tron-bluegreen))))
    `(magit-hash                               ((t (:foreground ,comment))))
    `(magit-header-line                        ((t (:inherit nil))))
-   `(magit-log-author                         ((t (:foreground ,tron-orange))))
+   `(magit-log-author                         ((t (:foreground ,tron-green))))
    `(magit-log-date                           ((t (:foreground ,tron-blue))))
    `(magit-log-graph                          ((t (:foreground ,comment))))
    `(magit-mode-line-process                  ((t (:foreground ,tron-orange))))
@@ -345,7 +345,8 @@
    `(magit-signature-good                     ((t (:inherit success))))
    `(magit-signature-revoked                  ((t (:foreground ,tron-magenta))))
    `(magit-signature-untrusted                ((t (:foreground ,tron-bluegreen))))
-   `(magit-tag                                ((t (:foreground ,tron-yellow))))
+   `(magit-tag                                ((t (:box (:line-width 1 :colour ,tron-lightblue)
+                                                   :foreground ,tron-lightblue))))
 
    ;;;; term-mode (vterm too)
    `(term                                     ((,class (:foreground ,fg1 :background ,bg1))))
