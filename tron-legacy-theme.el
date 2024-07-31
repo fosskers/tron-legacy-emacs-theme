@@ -141,6 +141,9 @@
    `(trailing-whitespace                      ((,class :foreground unspecified :background ,warning)))
    `(lazy-highlight                           ((,class (:foreground ,fg2 :background ,bg3))))
 
+   ;;;;; Doom Emacs
+   `(doom-modeline-project-dir                ((t (:foreground ,tron-blue :bold t))))
+
    ;;;;; which-func
    `(which-func                               ((t (:foreground ,tron-orange))))
 
@@ -163,10 +166,10 @@
 
    ;;;;; Org mode
    `(org-document-title                       ((,class (:foreground ,type :bold t))))
-   `(org-level-1                              ((,class (:bold nil :foreground ,tron-bluegreen))))
-   `(org-level-2                              ((,class (:bold nil :foreground ,tron-yellow))))
-   `(org-level-3                              ((,class (:bold nil :foreground ,tron-blue))))
-   `(org-level-4                              ((,class (:bold nil :foreground ,tron-bluegreen))))
+   `(org-level-1                              ((,class (:bold nil :foreground ,tron-blue))))
+   `(org-level-2                              ((,class (:bold nil :foreground ,tron-bluegreen))))
+   `(org-level-3                              ((,class (:bold nil :foreground ,tron-green))))
+   `(org-level-4                              ((,class (:bold nil :foreground ,tron-lightgreen))))
    `(org-code                                 ((,class (:foreground ,tron-blue :bold t))))
    `(org-hide                                 ((,class (:foreground ,fg4))))
    `(org-date                                 ((,class (:underline t :foreground ,var))))
@@ -195,6 +198,7 @@
 
    ;;;;; Markdown
    `(markdown-header-face                     ((t (:foreground ,tron-bluegreen :bold t))))
+   `(markdown-inline-code-face                ((t (:foreground ,tron-blue :bold t))))
 
    ;;;;; LaTeX
    `(font-latex-bold-face                     ((,class (:foreground ,type))))
