@@ -78,7 +78,7 @@
       (doc               "#6A8397")
       (type              "#4BB5BE")
       (str               "#387AAA")
-      (func              "#DEB45B")
+      (func              "#4BB5BE")
       (var               (if tron-legacy-theme-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; var = fg
       (warning           "#FF7DBB")
 
@@ -111,7 +111,7 @@
    `(font-lock-reference-face                 ((,class (:foreground ,const))))
    `(font-lock-constant-face                  ((,class (:foreground ,const))))
    `(font-lock-doc-face                       ((,class (:foreground ,doc))))
-   `(font-lock-function-name-face             ((,class (:foreground ,func :bold nil))))
+   `(font-lock-function-name-face             ((,class (:foreground ,func :bold t))))
    `(font-lock-keyword-face                   ((,class (:bold nil :foreground ,keyword))))
    `(font-lock-string-face                    ((,class (:foreground ,str))))
    `(font-lock-type-face                      ((,class (:foreground ,type))))
